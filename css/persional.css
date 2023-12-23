@@ -147,32 +147,32 @@ p {
 }
 
 .progress.style1 .progress-in {
-    width: 80%;
+    width: 30%;
     background: #e44c65;
 }
 
 .progress.style2 .progress-in {
-    width: 60%;
+    width: 30%;
     background: #5480f1;
 }
 
 .progress.style3 .progress-in {
-    width: 83%;
+    width: 30%;
     background: #39c088;
 }
 
 .progress.style4 .progress-in {
-    width: 90%;
+    width: 30%;
     background: #e44c65;
 }
 
 .progress.style5 .progress-in {
-    width: 73%;
+    width: 30%;
     background: #5480f1;
 }
 
 .progress.style6 .progress-in {
-    width: 63%;
+    width: 30%;
     background: #39c088;
 }
 

@@ -1,0 +1,13 @@
+#middle{
+	position:relative;
+	font-size:20px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+#middle h4{
+	text-decoration:underline;
+	color:#ff0000;
+	padding-top:25px;
+	font-size:25px;
+}

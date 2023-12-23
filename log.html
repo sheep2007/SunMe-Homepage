@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/log.css">
+</head>
+
+<body class="landing">
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1 id="logo"><a href="./index.html">HOMEPAGE</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#" class="button special" onclick="a('./login.html')">登录</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div id="middle">
+                <h4>转播设备</h4>
+                <p>我现在是在万泉河附近,<br>
+                   我们的转播车就在旁边不远的地方,<br>
+                   师傅马上将会把车开过来。<br>
+                   我们的转播设备非常非常的先进，<br>
+                   具体怎么先进我也说不清，<br>
+                   师傅比我清楚，<br>
+                   总之就是特别特别的先进。<br>
+                   好<br>
+                   现在师傅已经来了。<br>
+                   ……	</p>
+                <h4>旅程</h4>
+                <p>夕阳 染红蓝天<br>
+                  带走 美好的一天<br>
+                  风 吹过大地<br>
+                  炫美的世界<br>
+                  <br>
+                  霞光 点亮星辰<br>
+                  燃起 辽远的梦幻<br>
+                  流星 划过夜空<br>
+                  忆起 逝夜的歌声<br>
+                  <br>
+                  是谁昨夜背上行囊<br>
+                  唱一首满载风尘的歌<br>
+                  今夜才又想起拥抱的时刻<br>
+                  <br>
+                  独自走的一段旅程<br>
+                  是否还装满苦涩<br>
+                  一路风雨飘摇 那坎坷对谁说<br>
+                  <br>
+                  来吧看这远处亮起的点点星火<br>
+                  伸手触摸那写在匆匆旅程的歌<br>
+                  谁在转过的街口从容挥手<br>
+                  谁用欢笑和拥抱<br>
+                  记住这一刻</p>
+    </div>
+</body>
+
+<script>
+    // 使用ajax对页面的内容进行请求
+    function a(url) {
+        $.get(url, function (data) {
+            $("#center").html(data)
+        });
+    }
+</script>
+
+</html>

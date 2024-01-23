@@ -176,3 +176,7 @@ p {
     background: #39c088;
 }
 
+.progress.style7 .progress-in {
+    width: 30%;
+    background: #e44c65;
+}
